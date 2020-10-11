@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>crib-session</title>
+  </head>
+  <style>
+    .logo{
+      position: absolute;
+      top: 35vh;
+      left: 30%;
+      height:10vw;
+      width: 10vw;
+      z-index: 1000;
+      background-color: white;
+    }
+   .left-top{
+    height: 40vh; 
+    background-color: blue;
+    width: 35%;
+   }
+   .left-bottom{
+    height: 60vh;
+     background-color: blue; 
+     width: 35%;
+      padding: 0; 
+      top: 40vh;
+      position: absolute;
+   }
+   .main{
+    height: 50vh;
+     width: 30%;
+      left: 55%;
+      position: absolute;
+      top: 25vh;
+
+   }
+   .text{
+    border: 3px solid #555;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .5s;
+
+   }
+   .logbut{
+    border: 0;
+    background-color: hsl(214.2, 98.9%, 36.5%);
+    border-radius: 25px;
+    margin: 12px 2px 0;
+    cursor: pointer;
+    font-size: .95em;
+    max-width: 200px;
+    -webkit-appearance: none;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    text-decoration: none;
+   }
+   
+  </style>
+  <body>
+    
+    <div style="border-radius: 10vw 10vw 10vw 10vw; background-image:url('/home/jai/Downloads/logo.png'); background-size: 8vw; background-repeat: no-repeat ;background-position: center;"class="logo">
+   
+    </div>
+   
+     <div class="left-top"></div>
+     <div class = "left-bottom">
+           <div style="line-height: 30px;font-size: 2.2em;color: white;text-align: justify;left: 15%;width: 24.5vw;justify-self: start;position: relative;font-family: 'Open Sans',sans-serif;">
+           <span style="line-height: 50px;">Computer Center<br></span>
+           <span style="font-size: .5em;">IIT Bombay</span>
+           </div>
+    </div>
+    <div class = "main">
+      <span style = "font-size: 23px; color: grey;font-family: 'Open Sans',sans-serif;">Sign in with LDAP</span><br><br>
+      <input autofocus="" placeholder="IITB LDAP Username" class = "text"><br> <br>
+      <input autofocus="" placeholder="OTP" class = "text"><br>
+      <span style="font-size: 10px;margin-left: 10px;">Enter the OTP from your registered authenticator app</span>
+      <br><br>
+      <input type="submit" value="Login" name="login" class="logbut">
+      </div>
+      
+    </div>
+
+    
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
